@@ -165,7 +165,8 @@
     background-repeat: no-repeat;
     background-size: 900px;
     background-color: #FDF6EE;
-    height: 550px;
+    height: 580px;
+    margin-top: 10px;
 }
 
 .s4-images1 {
@@ -482,5 +483,40 @@
         font-size: 15px;
         font-weight: 800;
 
+    }
+}
+
+.section5{
+    background: linear-gradient(262.18deg, #FFB737 -0.11%, #FFBE4B 97.74%);
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+}
+.phones{
+    position: relative;
+    img{
+        position: relative;
+    }
+    .phone1{
+        width: 230px;
+        z-index: 1;
+        top: -40px;
+    }
+    .phone2{
+        width: 200px;
+        left: -100px;
+        z-index: 0;
+        top: -65px;
+    }
+}
+.now-text{
+    width: 400px;
+    color: #fff;
+    margin-left: -440px;
+    margin-top: 50px;
+    font-size: 18px;
+
+    h1{
+        margin-bottom: 20px;
     }
 }
