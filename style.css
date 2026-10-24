@@ -12,7 +12,7 @@
     justify-content: space-around;
 }
 
-.container{
+.container {
     width: 1256px;
     margin: 0 auto;
 }
@@ -488,41 +488,47 @@
     }
 }
 
-.section5{
+.section5 {
     background: linear-gradient(262.18deg, #FFB737 -0.11%, #FFBE4B 97.74%);
     display: flex;
     justify-content: space-around;
     height: 300px;
 }
-.phones{
+
+.phones {
     position: relative;
-    img{
+
+    img {
         position: relative;
     }
-    .phone1{
+
+    .phone1 {
         width: 230px;
         z-index: 1;
         top: -40px;
     }
-    .phone2{
+
+    .phone2 {
         width: 200px;
         left: -100px;
         z-index: 0;
         top: -65px;
     }
 }
-.now-text{
+
+.now-text {
     width: 400px;
     color: #fff;
     margin-left: -440px;
     margin-top: 50px;
     font-size: 18px;
 
-    h1{
+    h1 {
         margin-bottom: 20px;
     }
 }
-.section6{
+
+.section6 {
     background-color: #FBEEE4;
     padding-top: 130px;
     background-image: url(/images/nokhunak.svg);
@@ -532,20 +538,24 @@
     height: 650px;
 }
 
-.real-text{
+.real-text {
 
     margin-left: 300px;
-    h1{
+
+    h1 {
         font-size: 45px;
         margin-bottom: 10px;
     }
 }
 
-.floyd-box, .jane-box, .kristin-box{
+.floyd-box,
+.jane-box,
+.kristin-box {
     background-color: #fff;
     position: relative;
 }
-.floyd-box{
+
+.floyd-box {
     width: 300px;
     padding: 20px;
     margin-bottom: 20px;
@@ -553,62 +563,113 @@
     top: 20px;
     border-radius: 10px;
     height: 330px;
-    h3{
+
+    h3 {
         margin-top: 20px;
         margin-left: 50px;
     }
-    p{
+
+    p {
         line-height: 2;
         margin-left: 50px;
     }
-    span{
+
+    span {
         font-size: 15px;
         margin-left: 50px;
         color: #969BAB;
         margin-bottom: 20px;
     }
 }
-.jane-box{
+
+.jane-box {
     width: 350px;
     padding: 20px;
     border-radius: 10px;
     left: 740px;
     top: -480px;
-    p{
+
+    p {
         line-height: 2;
         margin-left: 30px;
     }
-    h3{
+
+    h3 {
         margin-top: 10px;
         margin-left: 30px;
     }
-    span{
+
+    span {
         margin-left: 30px;
         color: #868686;
         margin-top: 10px;
     }
 }
-.kristin-box{
+
+.kristin-box {
     width: 290px;
     border-radius: 10px;
 }
 
-.kristin-box{
+.kristin-box {
     padding: 10px;
     width: 300px;
     left: 740px;
     top: -450px;
-    p{
+
+    p {
         line-height: 2;
         margin-left: 40px;
     }
-    h3{
+
+    h3 {
         margin-left: 40px;
         margin-top: 15px;
         margin-bottom: 10px;
     }
-    span{
+
+    span {
         margin-left: 40px;
         color: #868686;
+    }
+}
+
+.section7 {
+    background-color: #F02228;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    color: #fff;
+    padding: 10px;
+}
+
+.logo2 {
+    width: 120px;
+    height: 40px;
+    margin-top: 30px;
+
+}
+.whatsapp-numbers, .simple-numbers{
+    display: flex;
+    margin-top: 20px;
+    p{
+        margin-top: 14px;
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 10px;
+        
+    }
+    img{
+        width: 50px;
+        height: 50px;
+    }
+}
+.socials{
+    display: flex;
+    gap: 40px;
+    margin-top: 25px;
+    img{
+        width: 40px;
+        height: 40px;
     }
 }
