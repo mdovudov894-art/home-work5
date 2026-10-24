@@ -4,16 +4,18 @@
     font-family: "Inter", sans-serif;
 }
 
+
+
 .header-box {
     display: flex;
 
     justify-content: space-around;
 }
 
-/* .container{
-    width: 1200px;
+.container{
+    width: 1256px;
     margin: 0 auto;
-} */
+}
 
 .links-header {
     display: flex;
@@ -518,5 +520,95 @@
 
     h1{
         margin-bottom: 20px;
+    }
+}
+.section6{
+    background-color: #FBEEE4;
+    padding-top: 130px;
+    background-image: url(/images/nokhunak.svg);
+    background-repeat: no-repeat;
+    background-size: 140px;
+    background-position: 210px 70px;
+    height: 650px;
+}
+
+.real-text{
+
+    margin-left: 300px;
+    h1{
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+}
+
+.floyd-box, .jane-box, .kristin-box{
+    background-color: #fff;
+    position: relative;
+}
+.floyd-box{
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+    left: 370px;
+    top: 20px;
+    border-radius: 10px;
+    height: 330px;
+    h3{
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    p{
+        line-height: 2;
+        margin-left: 50px;
+    }
+    span{
+        font-size: 15px;
+        margin-left: 50px;
+        color: #969BAB;
+        margin-bottom: 20px;
+    }
+}
+.jane-box{
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    left: 740px;
+    top: -480px;
+    p{
+        line-height: 2;
+        margin-left: 30px;
+    }
+    h3{
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    span{
+        margin-left: 30px;
+        color: #868686;
+        margin-top: 10px;
+    }
+}
+.kristin-box{
+    width: 290px;
+    border-radius: 10px;
+}
+
+.kristin-box{
+    padding: 10px;
+    width: 300px;
+    left: 740px;
+    top: -450px;
+    p{
+        line-height: 2;
+        margin-left: 40px;
+    }
+    h3{
+        margin-left: 40px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    span{
+        margin-left: 40px;
+        color: #868686;
     }
 }
